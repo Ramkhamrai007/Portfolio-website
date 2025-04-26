@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="images/cv photo.jpeg" alt="Profile Picture" class="profile-img rounded-circle mb-3">
+            <h1 class="display-4">Sandip Roy </h1>
+            <p class="lead">Web Developer & Designer</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mx-2"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate web developer with 2 years of experience in building responsive and user-friendly websites. I specialize in front-end development but also have experience with back-end technologies.</p>
+                    <p>When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new frameworks.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>My Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Bachelor's in Computer Science</h4>
+                            <p>XYZ University, 2018-2022</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Web Development Bootcamp</h4>
+                            <p>ABC Coding School, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">My Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-center mb-4">Technical Skills</h3>
+                    <div class="skill-item mb-3">
+                        <h5>HTML/CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>React</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>Node.js</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-center mb-4">Professional Skills</h3>
+                    <div class="skill-item mb-3">
+                        <h5>Communication</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>Teamwork</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>Problem Solving</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h5>Time Management</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/E-commarce.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Website</h5>
+                            <p class="card-text">A fully responsive e-commerce platform with product filtering, cart functionality, and checkout process.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Node.js</span>
+                                <span class="badge bg-primary">MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/Task management.jpeg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Task Management App</h5>
+                            <p class="card-text">A productivity application for managing tasks with drag-and-drop functionality and team collaboration features.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary">Vue.js</span>
+                                <span class="badge bg-primary">Firebase</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images\Weather.jpeg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">A weather application that displays current conditions and forecasts using data from a weather API.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-primary">API</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Get in Touch</h3>
+                            <p class="card-text">Feel free to reach out for collaborations or just a friendly hello!</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-envelope me-2"></i> sandip@example.com</li>
+                                <li class="mb-2"><i class="fas fa-phone me-2"></i> +91 8158896769</li>
+                                <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Medinipur,dhorma WB-721101</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Send a Message</h3>
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mx-2"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
